@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Caches
+*.cache
+*.log
+*.sqlite3
+*.db
+*.db-journal
+
+# Virtual environment
+venv/
+env/
+
+# IDEs and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+
+# FastAPI generated files
+*.json
+*.lock
+
+# Docker files
+**/Dockerfile.*
+docker-compose.override.yml
+*.tar
+
+# Test-related files
+coverage/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Documentation artifacts
+/build/
+docs/_build/
+
+# Ignore wheels and distributions
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Git and versioning
+*.orig
+*.rej
+
+# Other cache files and logs
+*.log
+*.tmp
